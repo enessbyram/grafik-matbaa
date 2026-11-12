@@ -64,12 +64,12 @@ export default function Navbar() {
             onMouseLeave={(e) => { e.currentTarget.style.transform = 'scale(1)'; }}
           >
             <img
-              src="/logo.png"
+              src="/logo-white.png"
               alt={companyInfo.fullName}
               style={{
-                height: '46px',
+                height: '48px',
                 width: 'auto',
-                maxWidth: '160px',
+                maxWidth: '170px',
                 objectFit: 'contain',
               }}
             />

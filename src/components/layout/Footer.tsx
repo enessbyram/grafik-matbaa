@@ -55,12 +55,12 @@ export default function Footer() {
               onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
             >
               <img
-                src="/logo.png"
+                src="/logo-white.png"
                 alt={companyInfo.fullName}
                 style={{
-                  height: '52px',
+                  height: '68px',
                   width: 'auto',
-                  maxWidth: '180px',
+                  maxWidth: '220px',
                   objectFit: 'contain',
                 }}
               />
